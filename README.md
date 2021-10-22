@@ -41,7 +41,12 @@ git push origin <branch name>
 git config credential.helper store
 git push origin <branch name>
 
+# git 받아오기(clone)
+
 git clone https://github.com/accident960/PIAI_B3
+
+수정후 
+
 git add .
  
 git commit -m “commit msg”
