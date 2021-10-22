@@ -1,14 +1,49 @@
 # PIAI_B3
 Repository for PIAI B3
 
-<<<<<<< HEAD
-"cute cat
-=======
+###깃허브에 가입해주시고 유저네임 기억해주세요
+### 깃허브에 본인 레포지토리 하나 만들어주세요~
 
+sudo apt-get update 
 
-### KEB has modified this file.
+sudo apt install git
 
+git –version
 
-### KEB has just modified this file.
+mkdir testgit
 
-modified
+cd testgit
+
+git init
+
+# 이제 여기에 텍스트 파일 만들어주세요 아무거나~
+
+git config --global user.name “유저네임”
+
+git config –global user.email “email”
+
+git config –list
+
+git add .
+ 
+git commit -m “commit msg”
+
+git status
+
+git log
+
+git remote add origin 깃허브주소
+
+git push origin master
+
+# 로그인 정보 요구함
+
+git config credential.helper store
+git push origin master
+
+git clone https://github.com/accident960/PIAI_B3
+git add .
+ 
+git commit -m “commit msg”
+
+git push origin master
