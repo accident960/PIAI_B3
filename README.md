@@ -34,16 +34,16 @@ git log
 
 git remote add origin 깃허브주소
 
-git push origin master
+git push origin <branch name>
 
 # 로그인 정보 요구함
 
 git config credential.helper store
-git push origin master
+git push origin <branch name>
 
 git clone https://github.com/accident960/PIAI_B3
 git add .
  
 git commit -m “commit msg”
 
-git push origin master
+git push origin <branch name>
