@@ -1,0 +1,401 @@
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80d34/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80d34.dir/build.make CMakeFiles/cmTC_80d34.dir/build
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_80d34.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_80d34.dir/src.cxx.o -c /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_80d34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80d34.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_80d34.dir/src.cxx.o  -o cmTC_80d34 
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c805/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c805.dir/build.make CMakeFiles/cmTC_2c805.dir/build
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_2c805.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_2c805.dir/src.cxx.o -c /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_2c805
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c805.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_2c805.dir/src.cxx.o  -o cmTC_2c805 
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a595/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a595.dir/build.make CMakeFiles/cmTC_1a595.dir/build
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_1a595.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_1a595.dir/src.c.o   -c /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_1a595
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a595.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_1a595.dir/src.c.o  -o cmTC_1a595 
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_405dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_405dd.dir/build.make CMakeFiles/cmTC_405dd.dir/build
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_405dd.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wsuggest-override -o CMakeFiles/cmTC_405dd.dir/src.c.o   -c /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_405dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_405dd.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_405dd.dir/src.c.o  -o cmTC_405dd 
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5c3a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5c3a.dir/build.make CMakeFiles/cmTC_b5c3a.dir/build
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_b5c3a.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_b5c3a.dir/src.c.o   -c /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_b5c3a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5c3a.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_b5c3a.dir/src.c.o  -o cmTC_b5c3a 
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ecb2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5ecb2.dir/build.make CMakeFiles/cmTC_5ecb2.dir/build
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_5ecb2.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_5ecb2.dir/src.cxx.o -c /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_5ecb2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ecb2.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_5ecb2.dir/src.cxx.o  -o cmTC_5ecb2 
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d6af/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d6af.dir/build.make CMakeFiles/cmTC_9d6af.dir/build
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_9d6af.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_9d6af.dir/src.c.o   -c /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_9d6af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d6af.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_9d6af.dir/src.c.o  -o cmTC_9d6af 
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78e55/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78e55.dir/build.make CMakeFiles/cmTC_78e55.dir/build
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_78e55.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_78e55.dir/src.c.o   -c /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_78e55
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78e55.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_78e55.dir/src.c.o  -o cmTC_78e55 
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-absolute-value’'
+Compilation failed:
+    source file: '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-absolute-value'
+===== BUILD LOG =====
+Change Dir: /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10b2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_10b2e.dir/build.make CMakeFiles/cmTC_10b2e.dir/build
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_10b2e.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-pointer-compare  -O3 -DNDEBUG -fPIE   -Wno-absolute-value -o CMakeFiles/cmTC_10b2e.dir/src.c.o   -c /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-absolute-value’
+Linking C executable cmTC_10b2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10b2e.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-pointer-compare  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_10b2e.dir/src.c.o  -o cmTC_10b2e 
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’'
+Compilation failed:
+    source file: '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_25e60/fast"
+/usr/bin/make -f CMakeFiles/cmTC_25e60.dir/build.make CMakeFiles/cmTC_25e60.dir/build
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_25e60.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG -fPIE   -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_25e60.dir/src.cxx.o -c /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’
+Linking CXX executable cmTC_25e60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25e60.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_25e60.dir/src.cxx.o  -o cmTC_25e60 
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dbdaa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dbdaa.dir/build.make CMakeFiles/cmTC_dbdaa.dir/build
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_dbdaa.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare  -O3 -DNDEBUG -fPIE   -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_dbdaa.dir/src.cxx.o -c /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_dbdaa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbdaa.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_dbdaa.dir/src.cxx.o  -o cmTC_dbdaa 
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’'
+Compilation failed:
+    source file: '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_88b7f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88b7f.dir/build.make CMakeFiles/cmTC_88b7f.dir/build
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_88b7f.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG -fPIE   -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_88b7f.dir/src.cxx.o -c /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’
+Linking CXX executable cmTC_88b7f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88b7f.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_88b7f.dir/src.cxx.o  -o cmTC_88b7f 
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fda08/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fda08.dir/build.make CMakeFiles/cmTC_fda08.dir/build
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_fda08.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG -fPIE   -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_fda08.dir/src.cxx.o -c /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking CXX executable cmTC_fda08
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fda08.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_fda08.dir/src.cxx.o  -o cmTC_fda08 
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’'
+Compilation failed:
+    source file: '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c1a4a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c1a4a.dir/build.make CMakeFiles/cmTC_c1a4a.dir/build
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_c1a4a.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG -fPIE   -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_c1a4a.dir/src.cxx.o -c /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’
+Linking CXX executable cmTC_c1a4a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1a4a.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_c1a4a.dir/src.cxx.o  -o cmTC_c1a4a 
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2386/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b2386.dir/build.make CMakeFiles/cmTC_b2386.dir/build
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_b2386.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_b2386.dir/CheckIncludeFile.c.o   -c /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: 그런 파일이나 디렉터리가 없습니다
+ #include <sys/videoio.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_b2386.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b2386.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b2386.dir/CheckIncludeFile.c.o] Error 1
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 나감
+Makefile:126: recipe for target 'cmTC_b2386/fast' failed
+make: *** [cmTC_b2386/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’'
+Compilation failed:
+    source file: '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-private-field'
+===== BUILD LOG =====
+Change Dir: /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11c11/fast"
+/usr/bin/make -f CMakeFiles/cmTC_11c11.dir/build.make CMakeFiles/cmTC_11c11.dir/build
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_11c11.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG -fPIE   -Wno-unused-private-field -std=c++11 -o CMakeFiles/cmTC_11c11.dir/src.cxx.o -c /home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’
+Linking CXX executable cmTC_11c11
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11c11.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_11c11.dir/src.cxx.o  -o cmTC_11c11 
+make[1]: 디렉터리 '/home/piai/dr-prj/Drone+TodayGAN/opencv/opencv-4.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+

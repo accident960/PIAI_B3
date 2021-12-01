@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.posco_ai">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Posco_AI"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+
+                <!-- 메인이면서 처음으로 시작되는 페이지(LAUNCHER)임을 지정 -->
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ModeActivity"
+            android:label="ModeActivity" />
+        <activity
+            android:name=".Match1Activity"
+            android:label="Match1Activity" />
+        <activity
+            android:name=".Match2Activity"
+            android:label="Match2Activity" />
+        <activity
+            android:name=".Match3Activity"
+            android:label="Match3Activity" />
+        <activity
+            android:name=".Record1Activity"
+            android:label="Record1Activity" />
+        <activity
+            android:name=".Record2Activity"
+            android:label="Record2Activity" />
+    </application>
+
+</manifest>
