@@ -1,0 +1,35 @@
+# Socket 통신 made by dayoni
+# socket은 IP, PORT를 통해 통신
+# 서버-클라이언트 간 메세지를 주고받기로한 PORT번호는 동일해야함
+# 서버는 접속하는 자신의 IP를 알고 있어야하며, 클라이언트는 접속할 서버의 IP를 알고 있어야함.
+
+=============================================================================================
+
+1. IP 체크
+- 다오니 서버(워크 스테이션) IP : 141.223.140.34
+- 실버스타 IP : 192.168.0.148
+
+2. 리눅스 PORT 이슈 & 사용 포트[33333번]
+- 리눅스 상에서 PORT는 구역 별로 정해지거나, 정해지지않은 번호가 존재
+- [0번~1023번 : Well-Know port] : IANA에서 공식적으로 할당시킨 포트, 임의로 사용되면 X
+- [1024~49151번 : Registered port] : Port 충돌이 일어나지 않는 이상 해당 범위 내의 포트 번호 할당 가능
+- [49152~65535번 : Dynamic port] : 프로세스가 임시로 포트를 할당하거나 사용자가 변경해도 괜찮은 변동 가능한 포트
+	=> 따라서, 우리는 [33333번]씁시다!
+
+2-2. 워크 스테이션 PORT 할당
+- 현재 개방된 포트 기확인 : netstat -tnlp
+- 포트 열기 : sudo iptables -I INPUT 1 -p tcp --dport 33333 -j ACCEPT
+- 개방한 포트 확인 : sudo iptables -L -v
+- 추가한 포트 삭제 -> 두가지 방식 존재 (오류뜨면 앞에 sudo 붙이)
+			1) 규칙번호로 삭제 : iptables -D INPUT 1
+			2) 추가한 규칙으로 삭제 : iptables -D INPUT -p tcp --dport 33333 -j ACCEPT 
+
+3. 간단한 socket 예제 돌려보기
+1 https://seolin.tistory.com/97
+
+2 https://foxtrotin.tistory.com/272
+
+3 https://nowonbun.tistory.com/668
+
+
+
